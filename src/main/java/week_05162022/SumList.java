@@ -23,8 +23,7 @@ class SumList {
 	}
 	
 	public static LinkedList<Integer> add(LinkedList<Integer> listX, LinkedList<Integer> listY) {
-		LinkedList<Integer> sumList = new LinkedList<Integer>();
-		
+		LinkedList<Integer> sumList = convertNumToList(convertListToNum(listX) + convertListToNum(listY));
 		return sumList;
 	}
 }
