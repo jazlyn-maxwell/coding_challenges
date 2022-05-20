@@ -1,4 +1,4 @@
-package StackMin;
+package week_05162022;
 
 import java.util.Stack;
 
@@ -14,6 +14,7 @@ class StackMin {
      */
     public StackMin() {
         super();
+        this.stack = new Stack<>();
     }
 
     /**
